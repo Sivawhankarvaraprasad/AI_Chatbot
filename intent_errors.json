@@ -1,0 +1,10 @@
+[
+  {
+    "text": "can interns change the domains",
+    "intent": "changes_of_domains",
+    "intent_prediction": {
+      "name": "paid_or_free",
+      "confidence": 0.19176523387432098
+    }
+  }
+]
