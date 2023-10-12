@@ -1,0 +1,24 @@
+version: "3.1"
+
+rules:
+    
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- rule: Respond to a user's text greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+
+policies:
+- ... # Other policies
+- name: RulePolicy1

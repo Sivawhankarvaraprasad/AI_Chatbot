@@ -1,0 +1,267 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - good afternoon
+- intent: what_about_IAC
+  examples: |
+    - What does Industry-Academia Community (IAC) refer to?
+    - Could you briefly explain the concept of Industry-Academia Community (IAC)?
+    - what about Industry-Academia Community (IAC)?
+    - Industry-Academia Community (IAC) contribute to knowledge exchange and collaboration?
+    - how get help from Industry academia community for students
+    - what about Industry academia community
+- intent: benefits_part_of_IAC
+  examples: |
+    - Curious about IAC? Want to know its perks
+    - Interested in the advantages of joining IAC
+    - Ever wondered why being part of IAC is beneficial
+    - Looking to explore the benefits of IAC membership
+    - Want to uncover the pluses of being in IAC
+- intent: fees_details
+  examples: |
+    - Is there a membership fee to join this community?
+    - Is there a cost associated with becoming a member of this community?
+    - Do I need to pay any fees to use the chatbot in this community?
+    - Is there a financial requirement for interacting with the chatbot here?
+    - this program membership is free or paid ?
+    - to engging with this community for paying or free
+- intent: participate_activities
+  examples: |
+    - Do I have to engage in every activity or conversation, or can I choose which ones to participate in?
+    - What happens if I don't want to continue a certain conversation or activity? Can I switch to something else
+    - Is there a limit to the number of activities
+    - Can I come back to a previous conversation or activity later, or is it a one-time opportunity
+    - What are the general rules for engaging with activities and conversations on the platform?
+- intent: hours_of_work
+  examples: |
+    - What is the typical weekly time commitment for an Individual Contributor (IAC) member's role
+    - Could you provide an estimate of the average number of hours an IAC member dedicates to their responsibilities
+    - Are there any guidelines on the amount of time I should allocate each week as an IAC member
+    - Can you give me an idea of the time investment I should be prepared to make as a member of the IAC
+- intent: member_of_IAC
+  examples: |
+    - Can I access the benefits without joining the Industry-Academia Community
+    - What advantages do I gain by becoming a member of the Industry-Academia Community
+    - Is membership in the Industry-Academia Community a requirement to utilize the benefits
+    - Are the benefits exclusive to members of the Industry-Academia Community
+    - Can you explain how the Industry-Academia Community membership relates to accessing the benefits
+- intent: flexibility_of_IAC
+  examples: |
+    - Can I engage in my activities whenever it suits me
+    - Will I have the freedom to take part in my tasks based on my schedule
+    - Is flexibility granted for me to join in activities at my preferred times
+    - Can I participate in my activities according to my convenience
+    - Will I be able to engage in my tasks at times that are convenient for me
+- intent: help_students_ofIAC
+  examples: |
+    - Have you engaged in prior Industry-Academia collaborations?
+    - What specific objectives do you aim to attain through this program as an Industry-Academia member?
+    - Could you provide insights into your experience with chatbots or similar AI technologies?
+    - What challenges have you faced while bridging industry and academia, and how can this program aid in addressing them?
+    - Are there specific topics or areas within Industry-Academia collaboration that pique your interest?
+- intent: conduction_internship
+  examples: |
+    - Can you describe the typical duration of an internship in the Industry-Academia community and how it's structured
+    - What are some key goals or learning objectives that interns usually aim to achieve during their time in this collaboration
+    - How are interns matched with mentors or supervisors from both the industry and academia to ensure a balanced learning experience
+    - Could you explain the role of projects or assignments in the internship process and how they contribute to the participant's learning journey
+    - In what ways does the Industry-Academia community facilitate knowledge exchange and networking opportunities for interns, helping them bridge the gap between theoretical learning and practical application
+- intent: apply_internship
+  examples: |
+    - Looking for internship opportunities? Need help finding where to apply
+    - Curious about internship applications? Want guidance on where to start
+    - Interested in internships? Shall I assist you in discovering where to apply
+    - Want to kickstart your internship journey? Need to know where to begin applying
+    - Exploring internships? Should I provide information on where to submit applications
+- intent: information_IAC_program
+  examples: |
+    - Interested in staying updated? Want to know how to receive info from us
+    - Curious about getting the latest news? Need to learn how to stay informed
+    - Looking for regular updates? Wondering how to keep in the loop with us
+    - provide social media accounts of IAC program
+- intent: starting_internship
+  examples: |
+    - Internship start date
+    - When does the internship begin
+    - Start date of the internship
+    - when internship start
+- intent: duration_internship
+  examples: |
+    - How do 6, 8, and 12-week internships differ in terms of duration and experience
+    - Could you explain the distinctions between 6, 8, and 12-week internships in terms of time commitment and learning outcomes
+    - What are the unique characteristics of 6, 8, and 12-week internships, and how do they impact the intern's growth and development
+    - duration of internship
+- intent: internship_certificates
+  examples: |
+    - Could you explain how I'll receive offer letters and certificates through this program
+    - What's the process for obtaining offer letters and certificates using this platform
+    - Can you guide me on how the chatbot assists in providing offer letters and certificates
+    - i want know about certificates and offer letters
+- intent: domains_of_internship
+  examples: |
+    - Could you provide insights into potential internship opportunities within different fields
+    - What are some examples of industries where internships are commonly offered
+    - Can you list a few domains or areas where students often seek internships
+    - various of domains for internship
+- intent: help_during_projects
+  examples: |
+    - Will individuals receive assistance throughout the project
+    - Can participants expect any form of support during the project
+    - Is there any help provided to participants during the course of the project
+- intent: appointment_letter
+  examples: |
+    - When can participants expect to receive their appointment letters
+    - Could you provide information about the timeline for sending out appointment letters to participants
+    - At what point in the process will participants be notified with their appointment letters
+    - what about appointment letter
+- intent: completion_of_program
+  examples: |
+    - Can you describe the key indicators of a successful internship completion
+    - What are the typical goals or outcomes that signify a productive internship experience
+    - In your opinion, what elements should be present to consider an internship as effectively finished
+    - what should follow for completion internship
+- intent: multiple_domains
+  examples: |
+    - Is it possible for someone to intern in multiple domains at the same time
+    - Can individuals engage in internships across different areas concurrently
+    - Is it feasible for a person to intern in more than one field simultaneously
+    - students at a time how many domains on working
+- intent: changes_of_domains
+  examples: |
+    - Can interns select their preferred domain and internship duration
+    - Is there an option for participants to modify their chosen domain and internship duration
+    - Do interns have the flexibility to both choose and update their internship domain and duration
+    - can interns change the domains
+- intent: paid_or_free
+  examples: |
+    - Is the internship offered on a paid or unpaid basis
+    - Can you please clarify whether the internship is compensated or unpaid
+    - Could you provide information about whether the internship comes with a stipend or is it unpaid
+    - this internship is paid or free
+- intent: eligibility_selection
+  examples: |
+    - Could you please share the prerequisites or qualifications required to join this internship
+    - What are the key factors you consider when selecting candidates for this internship opportunity
+    - Could you outline the criteria that applicants need to meet in order to be eligible for this internship program
+    - students what eligibility should have
+- intent: timing_of_program
+  examples: |
+    - Could you outline the expected duration of the internship program
+    - What are the specific start and end dates for the internship
+    - Can you provide a brief overview of the daily schedule during the internship
+    - day of working time please
+- intent: specifications_of_program
+  examples: |
+    - Is a laptop or computer necessary to complete the projects
+    - Do I need access to a laptop for project involvement
+    - Is a personal computer required to engage with the project tasks
+    - laptop is mandatory
+- intent: choose_domain
+  examples: |
+    - What key factors should I consider when selecting a domain
+    - Any tips on choosing the right domain for my  skill expertise
+    - How can I determine the most suitable domain to focus my skill
+    - students get any guidance from mentors for choosing domain
+    - how to choose internship domain
+- intent: data_analytics
+  examples: |
+    - Can you outline the extent of data availability for the data analytics internship
+    - Are interns granted access to relevant data sets during the data analytics internship
+    - Could you provide insight into the data provisioning aspect of the data analytics internship
+- intent: more_info
+  examples: |
+    - i want know about your website
+    - i want know who are archived through this program on your official website
+    - where the company is there
+    - i want know more about your website
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you human
+- intent: thank
+  examples: |
+    - Thank you for the information. Can you tell me more about the internship certificates
+    - I appreciate your help. How do I apply for the IAC program
+    - Thanks for explaining. Could you clarify the eligibility criteria for participating in the program
+    - thanks
+    - thank
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?

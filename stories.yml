@@ -1,0 +1,343 @@
+version: "3.1"
+
+stories:
+
+- story: asking about IAC
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_about_IAC
+  - action: utter_what_about_IAC
+
+- story: inquiring about benefits of IAC
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: benefits_part_of_IAC
+  - action: utter_benefits_part_of_IAC
+
+- story: asking for fee details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fees_details
+  - action: utter_fees_details
+
+- story: inquiring about participation in activities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: participate_activities
+  - action: utter_participate_activities
+
+- story: questions about hours of work
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hours_of_work
+  - action: utter_hours_of_work
+
+- story: membership inquiry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: member_of_IAC
+  - action: utter_member_of_IAC
+
+- story: flexibility of IAC
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: flexibility_of_IAC
+  - action: utter_flexibility_of_IAC
+
+- story: how IAC helps students
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_students_ofIAC
+  - action: utter_help_students_ofIAC
+
+- story: internship conduction
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: conduction_internship
+  - action: utter_conduction_internship
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- story: applying for internship
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: apply_internship
+  - action: utter_apply_internship
+
+- story: inquiring about information on IAC program
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: information_IAC_program
+  - action: utter_information_IAC_program
+
+- story: starting the internship
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: starting_internship
+  - action: utter_starting_internship
+
+- story: duration of internship
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: duration_internship
+  - action: utter_duration_internship
+
+- story: internship certificates
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: internship_certificates
+  - action: utter_internship_certificates
+
+- story: domains of internship
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: domains_of_internship
+  - action: utter_domains_of_internship
+
+- story: assistance during projects
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_during_projects
+  - action: utter_help_during_projects
+
+- story: requesting appointment letter
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: appointment_letter
+  - action: utter_appointment_letter
+
+- story: completion of program
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: completion_of_program
+  - action: utter_completion_of_program
+
+- story: exploring multiple domains
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: multiple_domains
+  - action: utter_multiple_domains
+
+- story: changing domains
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: changes_of_domains
+  - action: utter_changes_of_domains
+
+- story: paid or free program
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: paid_or_free
+  - action: utter_paid_or_free
+
+- story: eligibility and selection process
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: eligibility_selection
+  - action: utter_eligibility_selection
+
+- story: timing of the program
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: timing_of_program
+  - action: utter_timing_of_program
+
+- story: specifications of the program
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: specifications_of_program
+  - action: utter_specifications_of_program
+
+- story: choosing a domain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: choose_domain
+  - action: utter_choose_domain
+
+- story: interest in data analytics
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: data_analytics
+  - action: utter_data_analytics
+
+- story: declining mood and farewell
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: challenging the bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenges
+  - intent: deny
+  - action: utter_did_that_help
+
+- story: interest in data analytics domain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: choose_domain
+  - action: utter_choose_domain
+  - intent: data_analytics
+  - action: utter_data_analytics
+
+- story: asking about timing and specifications
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: timing_of_program
+  - action: utter_timing_of_program
+  - intent: specifications_of_program
+  - action: utter_specifications_of_program
+
+- story: confirming eligibility and selection process
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: eligibility_selection
+  - action: utter_eligibility_selection
+  - intent: affirm
+  - action: utter_happy
+
+- story: asking for help during projects
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: help_during_projects
+  - action: utter_help_during_projects
+  - intent: thank
+  - action: utter_happy
+
+- story: inquiring about internship certificates
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: internship_certificates
+  - action: utter_internship_certificates
+  - intent: affirm
+  - action: utter_happy
+
+- story: exploring various domains
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: domains_of_internship
+  - action: utter_domains_of_internship
+  - intent: multiple_domains
+  - action: utter_multiple_domains
+
+- story: more_info
+  steps:
+  - intent: more_info
+  - action: utter_more_info
+
+
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: information_IAC_program
+  - action: utter_information_IAC_program
+  - intent: more_info
+  - action: utter_choose_domain
+  - intent: more_info
+  - action: utter_more_info
+
+
+- story: interactive_story_1
+  steps:
+  - intent: nlu_fallback
+  - intent: changes_of_domains
+  - action: utter_changes_of_domains
+
+- story: interactive_story_1
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenges
+  - intent: thank
+  - action: utter_happy
+
+- story: interactive_story_1
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenges
+  - intent: thank
+  - action: utter_happy
+
+- story: interactive_story_1
+  steps:
+  - intent: more_info
+  - action: utter_more_info
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_about_IAC
+  - action: utter_what_about_IAC
+  - intent: fees_details
+  - action: utter_fees_details
+  - intent: choose_domain
+  - action: utter_choose_domain
+  - action: utter_thank
